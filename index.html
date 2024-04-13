@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio sobre Arte</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: champagne_limousines, Bold;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Estilos para el encabezado y la navegación */
+        header {
+            background-color: #098;
+            color: #009999;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        nav ul li a.active {
+            background-color: #098;
+        }
+
+        /* Estilos para las secciones */
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        /* Estilos para la galería */
+        .galeria {
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+        }
+
+        .galeria figure {
+            margin: 10px;
+            max-width: 300px;
+        }
+
+        .galeria img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Estilos para ocultar secciones */
+        .hidden {
+            display: none;
+        }
+
+        /* Estilos para el pie de página */
+        footer {
+            background-color: #098;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="#inicio" class="active">Inicio</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="inicio">
+        <h1>Bienvenidos al Mundo de InspirArte</h1>
+        <p>Sumérgete en un mundo de sueños y realidades distorsionadas.
+            Explora pinturas que desafian la lógica y estimulan la imaginación.</p>
+    </section>
+
+    <section id="galeria" class="hidden">
+        <h2>Galería de Arte</h2>
+        <div class="galeria">
+            <figure>
+                </style>
+                </head>
+                <body>
+                <div class="gallery">
+                    <!DOCTYPE html>
+                    <html lang="es">
+                    <head>
+                        <meta charset="UTF-8">
+                        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                        <title>Galería de Imágenes</title>
+                        <style>
+                            /* Estilos generales */
+                            body {
+                                font-family: champagne_limousines, Bold;
+                                margin: 0;
+                                padding: 0;
+                            }
+                            /* Estilos para las imágenes */
+                            .image-container {
+
+                                display: flex;
+                            <div class="space-avenly">
+                            justify-content: center;
+                            }
+                            .image {
+                                width: 100%; /* Las imágenes ocuparán todo el ancho disponible */
+                                max-width: 400px; /* Ajusta este valor según tus necesidades */
+                                margin: 10px;
+                                transition: transform 0.3s ease; /* Agrega una transición suave */
+                            }
+                            .image:hover {
+                                transform: scale(1.1); /* Al pasar el ratón sobre la imagen, agrándala ligeramente */
+                            }
+                        </style>
+                    </head>
+                    <body>
+                    <div class="image-container">
+                        <img class="image" src="imagen1.jpg" alt="Imagen 1">
+                        <img class="image" src="imagen2.jpg" alt="Imagen 2">
+                        <img class="image" src="imagen3.jpg" alt="Imagen 3">
+                        <img class="image" src="imagen4.jpg" alt="Imagen 4">
+
+                        <!-- Agrega más imágenes aquí -->
+                    </div>
+
+                    </body>
+                    </html>
+
+
+                </div>
+                <script>
+                    function showImage(imageUrl) {
+
+                        console.log(`Mostrando imagen: ${imageUrl}`);
+
+                    }
+                </script>
+                </body>
+            </figure>
+        </div>
+        </style>
+    </section>
+
+    <section id="contacto" class="hidden">
+        <h2>Galería InspirArte</h2>
+        <!DOCTYPE html>
+        <form lang="es">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Contáctanos</title>
+                <style>
+                    body {
+                        font-family: champagne_limousines, Bold;
+                    }
+                    .contact-form {
+                        max-width: 400px;
+                        margin: 0 auto;
+                        padding: 20px;
+                        border: 1px solid #ccc;
+                        border-radius: 5px;
+                    }
+                    .contact-form label {
+                        display: block;
+                        margin-bottom: 10px;
+                    }
+                    .contact-form input[type="text"],
+                    .contact-form input[type="email"],
+                    .contact-form textarea {
+                        width: 100%;
+                        padding: 10px;
+                        margin-bottom: 15px;
+                        border: 1px solid #ccc;
+                        border-radius: 3px;
+                    }
+                    .contact-form button[type="submit"] {
+                        background-color: #064;
+                        color: #fff;
+                        border: none;
+                        padding: 10px 20px;
+                        cursor: pointer;
+                    }
+                    .contact-form button[type="submit"]:hover {
+                        background-color: #066;
+                    }
+                </style>
+            </head>
+            <body>
+            <div class="contact-form">
+                <h2>Contáctanos</h2>
+                <form action="enviar.php" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+                    <button type="submit">Enviar mensaje</button>
+                </form>
+            </div>
+            </body>
+        </form>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Sitio sobre Arte. Todos los derechos reservados</p>
+</footer>
+
+<script>
+    // Obtener todas las secciones y enlaces de navegación
+    const sections = document.querySelectorAll('main section');
+    const navLinks = document.querySelectorAll('nav ul li a');
+
+    // Función para mostrar u ocultar las secciones
+    function showSection(id) {
+        // Ocultar todas las secciones
+        sections.forEach(section => {
+            section.classList.add('hidden');
+        });
+
+        // Remover la clase 'active' de todos los enlaces de navegación
+        navLinks.forEach(link => {
+            link.classList.remove('active');
+        });
+
+        // Mostrar la sección correspondiente y agregar la clase 'active' al enlace de navegación
+        const selectedSection = document.getElementById(id);
+        selectedSection.classList.remove('hidden');
+        const selectedLink = document.querySelector(`nav ul li a[href="#${id}"]`);
+        selectedLink.classList.add('active');
+    }
+
+    // Agregar eventos click a los enlaces de navegación
+    navLinks.forEach(link => {
+        link.addEventListener('click', (event) => {
+            event.preventDefault(); // Prevenir el comportamiento predeterminado del enlace
+            const targetId = event.currentTarget.getAttribute('href').slice(1);
+            showSection(targetId);
+        });
+    });
+
+    // Mostrar la sección de inicio al cargar la página
+    showSection('inicio');
+</script>
+</body>
+</html>
